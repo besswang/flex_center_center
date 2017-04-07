@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title></title>
+  <style>
+    body{padding:0;margin:0;}
+    .container {
+      background:yellow;
+      height: 100vh; /* 100vh = viewport height*/
+      display: flex;
+      flex-direction: column;/*属性规定灵活项目的方向:灵活的项目将垂直显示，正如一个列一样。*/
+      justify-content: center;/*justify-content 用于设置或检索弹性盒子元素在主轴（横轴）方向上的对齐方式:项目位于容器的中心。*/
+      align-items: center;/*align-items 属性定义flex子项在flex容器的当前行的侧轴（纵轴）方向上的对齐方式:项目位于容器的中心。*/
+    }
+  </style>
+</head>
+
+<body>
+<div class="container">
+  <div style="width:200px;height:200px;border:5px solid red;">自适应上下左右居中</div>
+</div>
+</body>
+</html>
